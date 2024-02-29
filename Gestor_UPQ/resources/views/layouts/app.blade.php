@@ -19,7 +19,7 @@
     <nav>
         <div class="logo-name">
             <div class="logo-image">
-                <img src="images/logo.png" alt="">
+                <img src="{{asset('assets/logo.png')}}">
             </div>
 
             <span class="logo_name">Gestor UPQ</span>
@@ -74,6 +74,7 @@
 
             @else
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                   
                         <a class="dropdown-item" href="{{ route('logout') }}"
                            onclick="event.preventDefault();
                                          document.getElementById('logout-form').submit();">
