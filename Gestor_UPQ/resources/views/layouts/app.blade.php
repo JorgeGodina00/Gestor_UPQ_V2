@@ -158,40 +158,29 @@
 
                     <h2>Subir Archivos</h2>
     
-                    <form action="#" method="post" enctype="multipart/form-data">
-                      <table>
-                        <tr>
-                          <td>Categoría:</td>
-                          <td>
-                            <select name="categoria">
-                              <option value="categoria1">Categoría 1</option>
-                              <option value="categoria2">Categoría 2</option>
-                              <!-- Agrega más opciones según necesites -->
-                            </select>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>Subcategoría:</td>
-                          <td>
-                            <select name="subcategoria">
-                              <option value="subcategoria1">Subcategoría 1</option>
-                              <option value="subcategoria2">Subcategoría 2</option>
-                              <!-- Agrega más opciones según necesites -->
-                            </select>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>Fuente Interna:</td>
-                          <td><input type="text" name="fuente_interna"></td>
-                        </tr>
-                        <tr>
-                          <td>Evidencia:</td>
-                          <td><input type="file" name="evidencia"></td>
-                        </tr>
-                        <tr>
-                          <td colspan="2"><button type="submit">Subir Archivo</button></td>
-                        </tr>
-                      </table>
+                    <form action="EnvioDatos" method="post" enctype="multipart/form-data">
+                        @csrf
+                        <div class="form-group">
+                        <label for="exampleFormController">Usuario</label>
+                        <input type="text" class="form-control" name="usuario">
+                      </div>
+                      <div class="form-group">
+                        <label for="">Rol</label>
+                        <input type="text" class="form-control" name="rol">
+                      </div>
+                      <div class="form-group">
+                        <label for="">Correo</label>
+                        <input type="text" class="form-control" name="correo">
+                      </div>
+                      <div class="form-group">
+                        <label for="">Nombre Documento</label>
+                        <input type="text" class="form-control" name="nombre_documento">
+                      </div>
+                      <div class="form-group">
+                        <label for="">Documento</label>
+                        <input type="file" class="form-control" name="documento">
+                      </div>
+                        <button class="btn btn-success" type="submit">Subir Archivo</button>
                     </form>
                 </div>
                 <br>
