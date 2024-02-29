@@ -156,7 +156,7 @@
 
                 
 
-                    <h2>Subir Archivos con Categorización</h2>
+                    <h2>Subir Archivos</h2>
     
                     <form action="#" method="post" enctype="multipart/form-data">
                       <table>
