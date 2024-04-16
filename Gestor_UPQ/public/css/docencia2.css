@@ -1,0 +1,221 @@
+.welcome-section {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: #333; /* Color de fondo del pie de página */
+    color: #ffffff; /* Color de texto del pie de página */
+}
+
+.jumbotron-library {
+    background-color: #333; /* Color de fondo del pie de página */
+    color: #ffffff; /* Color de texto del pie de página */
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.tabs {
+display: flex;
+margin-bottom: 10px;
+}
+
+.tab-link {
+padding: 10px 20px;
+background-color: #EEE;
+color: #333;
+text-decoration: none;
+border-radius: 5px 5px 0 0;
+}
+
+.tab-link.active {
+background-color: #FFF;
+border-bottom: 2px solid var(--black-color); /* Color de resaltado */
+}
+
+/* Estilos para el contenido de las pestañas */
+.tab-content {
+display: none;
+padding: 20px;
+background-color: #FFF;
+border: 1px solid #DDD;
+border-top: none;
+}
+
+.tab-content.active {
+display: block;
+}   
+
+/* Estilos para la gráfica de pastel y el checklist */
+.content {
+    margin-top: 70px;
+    background-color: #ffffff00;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(131, 55, 55, 0.1);
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Para centrar horizontalmente */
+    box-sizing: content-box;
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Agregado para separar la gráfica del checklist */
+}
+
+.checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.checklist-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px; /* Agregado espacio entre el título y la lista */
+}
+
+.checklist-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.checklist-item input {
+    margin-right: 10px;
+}
+
+
+
+
+.content-section {
+    display: none;
+    padding: 20px;
+    border: 1px solid #121b25;
+    border-radius: 0 8px 8px 8px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    overflow-y: auto;
+}
+
+/* Mostrar la pestaña activa */
+.content-section.active {
+    display: block;
+}
+
+/* Estilos para la tabla de la biblioteca */
+.library-table-section {
+    margin-top: 70px;
+    background-color: #ffffff00;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(131, 55, 55, 0.1);
+    box-sizing: content-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para la lista de archivos */
+.file-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.file-list-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.file-list-item-actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* Estilos para el filtro por cuatrimestre */
+.filter-section {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.filter-select {
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* Estilos para las acciones (actualizar y eliminar) */
+.actions-section {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-btn {
+    padding: 10px 15px;
+    background-color: #191d30;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos para la barra de navegación */
+.nav-bar {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    background-color: #333; /* Color de fondo de barra de navegación */
+    color: #ffffff; /* Color de texto de barra de navegación */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1); /* Sombra */
+}
+
+    /* Estilos para las pestañas */
+
+    
+

@@ -27,7 +27,7 @@
         <div class="menu-items">
             <ul class="nav-links">
                 
-                <li><a href="#">
+                <li><a href="/tutoria">
                     <i class="uil uil-graduation-cap"></i>
                     <span class="link-name">Tutoria</span>
                 </a></li>
@@ -35,11 +35,11 @@
                     <i class="uil uil-book-open"></i>
                     <span class="link-name">Docencia</span>
                 </a></li>
-                <li><a href="#">
+                <li><a href="/investigacion">
                     <i class="uil uil-notes"></i>
                     <span class="link-name">Investigación</span>
                 </a></li>
-                <li><a href="#">
+                <li><a href="/gestion">
                     <i class="uil uil-flask"></i>
                     <span class="link-name">Gestión</span>
                 </a></li>
@@ -99,18 +99,18 @@
         <div class="dash-content">
             <div class="title">
                 <i class="uil uil-graduation-cap"></i>
-                <div class="text">Tutoria</div>
+                <div class="text">Inicio</div>
             </div>
             <div class="tabs">
                 <a href="#tab1" class="tab-link active" onclick="openTab(event, 'tab1')">Inicio</a>
-                <a href="#tab2" class="tab-link" onclick="openTab(event, 'tab2')">Tutoria Individual</a>
+                <a href="#tab2" class="tab-link" onclick="openTab(event, 'tab2')">Noticias</a>
                 <a href="#tab3" class="tab-link" onclick="openTab(event, 'tab3')">Convocatoria</a>
                 <a href="#tab4" class="tab-link" onclick="openTab(event, 'tab4')">Biblioteca</a>
             </div>
             <div id="tab1" class="tab-content active">
                 <center>
-                    <h1>Inicio Tutoria</h1>
-                    <h2>Procentaje de Progreso</h2>
+                    <h1>Inicio </h1>
+                    <h2>Porcentaje General de Progreso</h2>
                     <canvas id="pastel-chart" width="400" height="400"></canvas>
                     <script>
                         // Datos para el gráfico
