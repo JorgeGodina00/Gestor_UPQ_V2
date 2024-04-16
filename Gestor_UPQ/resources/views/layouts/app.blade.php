@@ -31,7 +31,7 @@
                     <i class="uil uil-graduation-cap"></i>
                     <span class="link-name">Tutoria</span>
                 </a></li>
-                <li><a href="#">
+                <li><a href="/docencia">
                     <i class="uil uil-book-open"></i>
                     <span class="link-name">Docencia</span>
                 </a></li>
